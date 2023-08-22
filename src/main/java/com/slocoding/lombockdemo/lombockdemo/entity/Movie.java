@@ -4,7 +4,12 @@ import lombok.*;
 
 import java.net.URL;
 
-@Getter @Setter
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@EqualsAndHashCode
 public class Movie {
 
     private Long id;
